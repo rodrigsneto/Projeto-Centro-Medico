@@ -53,7 +53,6 @@ nav a:hover {
     /* O TAMANHO DA IMAGEM VAI FICAR DE ACORDO COM O TAMANHO
     DA TELA DO USUARIO */
     background-size: cover;
-    height: 670px;
 }
 .column {
     flex-direction: column;
@@ -327,4 +326,26 @@ footer .footer_copyright {
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+}
+
+@media (min-width:600px) {
+    #banner {
+        height: 670px;
+    }
+}
+
+@media (max-width:600px) {
+    .banner_headline {
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 52px;
+    }
+    .banner_headline h2 {
+        font-size: 20px;
+    }
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
 }
