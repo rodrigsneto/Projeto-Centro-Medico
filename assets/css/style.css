@@ -378,6 +378,10 @@ footer .footer_copyright {
     }
     .footer_area {
         flex-direction: column;
+        margin-left: 20px;
+    }
+    .footer_copyright {
+        margin-left: 20px;
     }
 
     /* Editando Menu */
